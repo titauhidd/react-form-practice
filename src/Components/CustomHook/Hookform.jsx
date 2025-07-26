@@ -2,13 +2,11 @@ import React from "react";
 import useInputState from "../../hookss/inputhook";
 
 const Hookform = () => {
-  const [name, handlenameChange] = useInputState('okkk')
-  
+  const [name, handlenameChange] = useInputState("okkk");
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name
-      
-    )
+    console.log(name);
   };
 
   return (

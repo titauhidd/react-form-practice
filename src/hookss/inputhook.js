@@ -8,4 +8,4 @@ const useInputState = (defaultValue = null) => {
   return [value, handleChange];
 };
 export default useInputState;
-console.log(useInputState)
+// console.log(useInputState)
