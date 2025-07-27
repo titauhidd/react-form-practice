@@ -1,9 +1,11 @@
 import React from "react";
 
-const Special = () => {
+const Special = ({ asset }) => {
   return (
-    <div>
-      <p>I'm Special</p>
+    <div className="border-2 border-amber-400 p-4">
+      {/* <p>Diamond: Give it to I'm Special</p> */}
+      <p>Special</p>
+      <p>Has: {asset}</p>
     </div>
   );
 };
